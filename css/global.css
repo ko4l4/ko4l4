@@ -9,4 +9,12 @@ body{
     height: 100%;
 
 }
+a {
+    outline: none;
+    color: #0f48d5;
+    text-decoration: none;
+}
+a:hover{
+    color: #116bff;
+}
 

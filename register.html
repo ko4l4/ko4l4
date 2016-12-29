@@ -11,13 +11,14 @@
 
     <link href="css/global.css" rel="stylesheet">
     <link href="css/nav.css" rel="stylesheet">
+    <link href="css/form.css" rel="stylesheet">
     <link href="css/login.css" rel="stylesheet">
 
 </head>
 <body>
 <nav>
     <ul>
-        <li><a href="#" class="nav-logo">Ko4l4</a></li>
+        <li><a href="index.html" class="nav-logo">Ko4l4</a></li>
     </ul>
     <ul>
         <li><a href="#">Główna</a></li>
@@ -37,13 +38,26 @@
             <a href="login.html" class="tab">Zaloguj się</a>
             <a class="tab active">Zarejestruj się</a>
         </div>
-        <div class="login-box">
+        <div class="register-container">
             <div class="register-box">
-
+                <form method="post" class="register-form">
+                    <input type="text" name="nick" placeholder="Nick"><br>
+                    <input type="email" name="mail" placeholder="E - mail"><br>
+                    <input type="password" name="password" placeholder="Hasło"><br>
+                    <input type="password" name="repassword" placeholder="Powtórz hasło"><br>
+                    <label><input type="checkbox" name="accept"> Akceptuję <a href="#">regulamin</a></label><br>
+                    <input type="submit" name="submit" text="Zarejestruj się!">
+                </form>
             </div>
             <div class="info-box">
-
+                Zarejestruj się, aby:
+                <ul>
+                    <li>Grać z innymi ludźmi</li>
+                    <li>Śledzić swoje postępy</li>
+                    <li>Brać udział w turniejach i eventach</li>
+                </ul>
             </div>
+            <div style="clear: both"></div>
         </div>
     </section>
 </article>
