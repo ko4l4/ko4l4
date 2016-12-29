@@ -11,7 +11,7 @@
 
     <link href="css/global.css" rel="stylesheet">
     <link href="css/nav.css" rel="stylesheet">
-
+    <link href="css/landing.css" rel="stylesheet">
 
 </head>
 <body>
@@ -27,6 +27,7 @@
         </ul>
         <ul class="right">
             <li><a href="#">Zaloguj się</a></li>
+            <li><a href="#"><span style="font-weight: 900;">Zarejestruj się</span></a></li>
         </ul>
     </nav>
     <article>
@@ -34,13 +35,27 @@
             <div class="text">
                 <h1>Dołącz do nas!</h1>
                 <h2>Graj z innymi w szachy, pokera i tysiąca!</h2>
-                <a class="down_btn" href="#start2">&#8964;</a>
+                <a class="down_btn" href="#community">&#8964;</a>
             </div>
         </section>
-        <section id="start2">
+        <section id="community">
             <div class="text">
-                <h1>Dołącz do nas!</h1>
-                <h2>Graj z innymi w szachy, pokera i tysiąca!</h2>
+                <h1>Społeczność</h1>
+                <h2>Graj z innymi użytkownikami, albo z botami</h2>
+                <a class="down_btn" href="#rank">&#8964;</a>
+            </div>
+        </section>
+        <section id="rank">
+            <div class="text">
+                <h1>Kontroluj swoje postępy</h1>
+                <h2>Pnij się w rankingu i zostań najlepszym</h2>
+                <a class="down_btn" href="#register">&#8964;</a>
+            </div>
+        </section>
+        <section id="register">
+            <div class="text">
+                <h1>Na co czekasz?</h1>
+                <a href="register.html" class="register_btn">Zarejestruj się już dziś!</a>
             </div>
         </section>
     </article>
@@ -51,5 +66,7 @@
     <script>$(function () {
         $(".down_btn").html('<i class="fa fa-chevron-down"></i>');
     });</script>
+    <script src="js/sticky.js"></script>
+
 </body>
 </html>

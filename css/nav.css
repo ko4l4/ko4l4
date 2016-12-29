@@ -5,8 +5,11 @@ nav {
     border-radius: 0;
     height: 60px;
     box-sizing: border-box;
+    position: -webkit-sticky;
     position: sticky;
     top: 0;
+    left: 0;
+    width: 100%;
     z-index: 100;
 }
 .nav-logo{
@@ -56,4 +59,12 @@ nav > ul > li > a {
 .nav-logo:hover {
     background-color: #0d1f66;
     color: #ffffff;
+}
+.sticky {
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0;
+    z-index: 100;
+    border-top: 0;
 }
