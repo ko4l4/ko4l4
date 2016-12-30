@@ -1,0 +1,57 @@
+.user {
+    border-radius: 5px;
+    background-color: #dddddd;
+    border: 1px solid #999999;
+    padding: 20px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 70px;
+    height: 600px;
+}
+.u-picture {
+    text-align: center;
+}
+.dane >.dane1 > ul > li, .dane >.dane2 > ul > li {
+    margin-bottom: 20px;
+    font-size: 20px;
+    list-style-type: none;
+    padding:7px;
+}
+.id{
+     float:left;
+     width: 125px;
+     text-align: center;
+     font-size:20px;
+}
+.id1{
+    float:left;
+    width: 200px;
+    text-align: center;
+    font-size:20px;
+}
+.data {
+    border: solid 1px #7194DA;
+    border-radius: 5px;
+    margin-left: 10px;
+    text-align: center;
+    padding: 10px;
+    margin-top:10px;
+    box-sizing: border-box;
+
+}
+.dane{
+    margin-top: 300px;
+
+}
+.dane1 {
+    border: solid 1px #dddddd;
+    float:left;
+    margin-right: 50px;
+    margin-left: 40px;
+}
+
+.dane2 {
+    border: solid 1px #dddddd;
+
+}
