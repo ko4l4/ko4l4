@@ -11,6 +11,7 @@
 }
 .u-picture {
     text-align: center;
+    margin-top:30px;
 }
 .dane >.dane1 > ul > li, .dane >.dane2 > ul > li {
     margin-bottom: 20px;
@@ -41,7 +42,7 @@
 
 }
 .dane{
-    margin-top: 300px;
+    margin-top: 75px;
 
 }
 .dane1 {
