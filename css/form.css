@@ -1,0 +1,36 @@
+.register-form{
+
+}
+.register-form > * {
+    margin-bottom: 10px;
+    width: 70%;
+    padding: 10px;
+    outline: none;
+    box-sizing: content-box;
+    border-radius: 5px;
+}
+.register-form > input[type=text], .register-form > input[type=email], .register-form > input[type=password] {
+    border: 2px solid #aaaaaa;
+    color: #555555;
+}
+.register-form > input[type=text]:active, .register-form > input[type=email]:active, .register-form > input[type=password]:active, .register-form > input[type=text]:focus, .register-form > input[type=email]:focus, .register-form > input[type=password]:focus {
+    border: 2px solid #1635cb;
+    color: #555555;
+    -webkit-box-shadow: inset 0px 0px 133px -1px rgba(22,91,201,0.5);
+    -moz-box-shadow: inset 0px 0px 133px -1px rgba(22,91,201,0.5);
+    box-shadow: inset 0px 0px 133px -1px rgba(22,91,201,0.5);
+}
+.register-form > input[type=submit] {
+    border: 2px solid #1635cb;
+    background-color: #1635cb;
+    color: #ffffff;
+    font-weight: 900;
+    cursor: pointer;
+}
+.register-form > label {
+    cursor: pointer;
+    padding-left: 0;
+}
+.register-form > label > input[type=checkbox] {
+    margin-right: 5px;
+}
