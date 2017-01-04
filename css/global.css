@@ -26,31 +26,9 @@ a.center, div.center, span.center {
     margin-left: auto;
     margin-right: auto;
 }
-span.userRankTitle{
-    color: #333;
-}
-.online {
-    color: #2ba20c;
-}
-.offline {
-    color: #aaa;
-}
-.userID{
-    margin-bottom: 10px;
-    color: #777;
-    font-size: 12px;
-}
 
 /* Ranks properties*/
-a.userLabel-lg {
-    font-weight: 900;
-    font-size: 30px;
-    letter-spacing: 3px;
-}
-a.userLabel-sm {
-    font-weight: 900;
-    letter-spacing: 1px;
-}
+
 a.developer {
     color: #af0b31;
 }
@@ -99,4 +77,35 @@ div.post-id{
     width: 100%;
     color: #777;
     text-align: right;
+}
+/*Users properties*/
+a.userLabel-lg {
+    font-weight: 900;
+    font-size: 30px;
+    letter-spacing: 3px;
+}
+a.userLabel-sm {
+    font-weight: 900;
+    letter-spacing: 1px;
+}
+
+img.user-image{
+    width:200px;
+    height:200px;
+    border: solid 1px #7194DA;
+    border-radius:100px;
+}
+span.userRankTitle{
+    color: #333;
+}
+.online {
+    color: #2ba20c;
+}
+.offline {
+    color: #aaa;
+}
+.userID{
+    margin-bottom: 10px;
+    color: #777;
+    font-size: 12px;
 }

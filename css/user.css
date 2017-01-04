@@ -13,7 +13,6 @@ article {
     margin-left: auto;
     margin-right: auto;
     height: 240px;
-
 }
 .change {
     display: none;
@@ -24,12 +23,7 @@ article {
 
 
 }
-img.user-image{
-    width:200px;
-    height:200px;
-    border: solid 1px #7194DA;
-    border-radius:100px;
-}
+
 
 .user-picture:hover >.change{
     display: block;
