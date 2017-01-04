@@ -51,3 +51,41 @@ span.userRankTitle{
     color: #777;
     font-size: 12px;
 }
+
+/*Posts properties*/
+.post{
+    margin-bottom: 10px;
+}
+.post > .post-content {
+    width: 100%;
+    background-color: #fff;
+    border: solid 2px #7194da;
+    border-radius: 4px;
+    box-sizing: border-box;
+    padding: 10px;
+}
+.post > .post-content > .post-meta {
+    border-top: 2px solid #7194da;
+    margin-top: 10px;
+    text-align: right;
+    width: 100%;
+    color: #333;
+}
+.post > .post-footer {
+    text-align: right;
+    padding-top: 5px;
+    padding-right: 10px;
+}
+.vote-btn {
+    background: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.vote-yes{
+    color: #2ba20c;
+}
+.vote-no{
+    color: #af0b31;
+}
+
