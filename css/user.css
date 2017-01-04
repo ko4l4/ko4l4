@@ -1,4 +1,4 @@
-.user {
+article {
     border-radius: 5px;
     background-color: #dddddd;
     border: 1px solid #999999;
@@ -6,7 +6,7 @@
     width: 800px;
     margin: 30px auto 30px;
 }
-.u-picture {
+#user-picture {
     text-align: center;
     margin-top:30px;
     max-width: 210px;
@@ -24,26 +24,30 @@
 
 
 }
+img.user-image{
+    width:200px;
+    height:200px;
+    border: solid 1px #7194DA;
+    border-radius:100px;
+}
 
-.u-picture:hover >.change{
+.user-picture:hover >.change{
     display: block;
     color: #7194DA;
 }
 
-.dane >.dane1 > ul > li, .dane >.dane2 > ul > li {
+#user-data > ul > li {
     margin-bottom: 20px;
-    font-size: 20px;
     list-style-type: none;
-    padding:7px;
+    padding: 7px;
 }
-.id{
+.key{
      float:left;
      width: 125px;
      text-align: center;
-     font-size:20px;
 }
 
-.data {
+.value {
     border: solid 1px #7194DA;
     border-radius: 5px;
     margin-left: 10px;
@@ -83,4 +87,14 @@
     }
 
 }
-
+.left-box, .right-box{
+    float: left;
+    min-height: 400px;
+    width: 50%;
+    box-sizing: border-box;
+}
+#simple-info {
+    font-size: 20px;
+    width: 100%;
+    text-align: center;
+}
