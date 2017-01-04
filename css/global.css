@@ -6,7 +6,7 @@ html, body {
     background-color: #0f48d5;
 }
 body{
-    font-family: 'Lato', sans-serif !important;
+    font-family: 'Lato', sans-serif;
     height: 100%;
 
 }
@@ -18,4 +18,36 @@ a {
 a:hover{
     color: #116bff;
 }
-
+a.userLabel-lg {
+    font-weight: 900;
+    font-size: 30px;
+    letter-spacing: 3px;
+}
+a.userLabel-sm {
+    font-weight: 900;
+    letter-spacing: 1px;
+}
+a.developer {
+    color: #af0b31;
+}
+a.center, div.center, span.center {
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+span.userRankTitle{
+    color: #333;
+}
+.online {
+    color: #2ba20c;
+}
+.offline {
+    color: #aaa;
+}
+.userID{
+    margin-bottom: 10px;
+    color: #777;
+    font-size: 12px;
+}
