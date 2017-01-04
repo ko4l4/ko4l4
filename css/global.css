@@ -18,18 +18,7 @@ a {
 a:hover{
     color: #116bff;
 }
-a.userLabel-lg {
-    font-weight: 900;
-    font-size: 30px;
-    letter-spacing: 3px;
-}
-a.userLabel-sm {
-    font-weight: 900;
-    letter-spacing: 1px;
-}
-a.developer {
-    color: #af0b31;
-}
+
 a.center, div.center, span.center {
     display: block;
     width: 100%;
@@ -50,6 +39,24 @@ span.userRankTitle{
     margin-bottom: 10px;
     color: #777;
     font-size: 12px;
+}
+
+/* Ranks properties*/
+a.userLabel-lg {
+    font-weight: 900;
+    font-size: 30px;
+    letter-spacing: 3px;
+}
+a.userLabel-sm {
+    font-weight: 900;
+    letter-spacing: 1px;
+}
+a.developer {
+    color: #af0b31;
+}
+
+a.mod {
+    color: #268a16;
 }
 
 /*Posts properties*/
@@ -88,4 +95,8 @@ span.userRankTitle{
 .vote-no{
     color: #af0b31;
 }
-
+div.post-id{
+    width: 100%;
+    color: #777;
+    text-align: right;
+}
