@@ -3,7 +3,7 @@ article {
     background-color: #dddddd;
     border: 1px solid #999999;
     padding: 20px;
-    width: 800px;
+    width: 60%;
     margin: 30px auto 30px;
 }
 #user-picture {
@@ -20,11 +20,7 @@ article {
     width: 110px;
     margin-left: auto;
     margin-right: auto;
-
-
 }
-
-
 .user-picture:hover >.change{
     display: block;
     color: #7194DA;
@@ -60,6 +56,7 @@ article {
 .userLabel-lg {
     padding: 0 10px 0;
 }
+
 @media only screen and (max-width: 950px){
     .dane {
         margin-right: auto;
