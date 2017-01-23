@@ -3,9 +3,10 @@ html, body {
     padding: 0;
     min-height: 100%;
     height: 100%;
+    background-color: #0f48d5;
 }
 body{
-    font-family: 'Lato', sans-serif !important;
+    font-family: 'Lato', sans-serif;
     height: 100%;
 
 }
@@ -18,3 +19,128 @@ a:hover{
     color: #116bff;
 }
 
+a.center, div.center, span.center {
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Ranks properties*/
+
+a.developer, span.developer {
+    color: #af0b31;
+}
+
+a.mod, span.mod {
+    color: #268a16;
+}
+
+/*Posts properties*/
+.post{
+    margin-bottom: 10px;
+}
+.post > .post-content {
+    width: 100%;
+    background-color: #fff;
+    border: solid 2px #7194da;
+    border-radius: 4px;
+    box-sizing: border-box;
+    padding: 10px;
+}
+.post > .post-content > .post-meta {
+    border-top: 2px solid #7194da;
+    margin-top: 10px;
+    text-align: right;
+    width: 100%;
+    color: #333;
+}
+.post > .post-footer {
+    text-align: right;
+    padding-top: 5px;
+    padding-right: 10px;
+}
+.vote-btn {
+    background: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.vote-yes{
+    color: #2ba20c;
+}
+.vote-no{
+    color: #af0b31;
+}
+div.post-id{
+    width: 100%;
+    color: #777;
+    text-align: right;
+}
+/*Users properties*/
+a.userLabel-lg {
+    font-weight: 900;
+    font-size: 30px;
+    letter-spacing: 3px;
+}
+a.userLabel-sm, span.userLabel-sm {
+    font-weight: 900;
+    letter-spacing: 1px;
+}
+
+
+span.userRankTitle{
+    color: #333;
+}
+.online {
+    color: #2ba20c;
+}
+.offline {
+    color: #aaa;
+}
+.userID{
+    margin-bottom: 10px;
+    color: #777;
+    font-size: 12px;
+}
+h1.title {
+    display: block;
+    text-align: center;
+    width: 100%;
+    font-weight: 900;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+h2.first-letter {
+    display: block;
+    width: 100%;
+    font-weight: 900;
+    font-size: 34px;
+    padding: 10px;
+}
+a.user-tile{
+    display: block;
+    color: #000;
+    box-sizing: border-box;
+    padding: 10px;
+    width: 200px;
+    height: 200px;
+    margin-bottom: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+
+/*User image properties*/
+img.user-image-profile-lg{
+    width:200px;
+    height:200px;
+    border: solid 1px #7194da;
+    border-radius:100px;
+}
+img.user-image-profile-sm{
+    width:100px;
+    height:100px;
+    border-radius:50px;
+    border: 1px solid #7194da;
+}

@@ -1,0 +1,27 @@
+article {
+    border-radius: 5px;
+    background-color: #dddddd;
+    border: 1px solid #999999;
+    padding: 20px;
+    width: 60%;
+    margin: 30px auto 30px;
+}
+
+
+a.user-tile {
+    display: inline-block;
+    margin-right: 20px;
+}
+a.user-tile:hover > img.user-image-profile-sm {
+    -webkit-box-shadow: 0 0 31px -5px rgba(113,148,218,1);
+    -moz-box-shadow: 0 0 31px -5px rgba(113,148,218,1);
+    box-shadow: 0 0 31px -5px rgba(113,148,218,1);
+}
+.search-form{
+    width: 100%;
+    text-align: center;
+}
+.search-form input[type=text]{
+    display: inline-block;
+    width: 50%;
+}
